@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F9A494EB1BC16B5B003DBE31 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9A494EA1BC16B5B003DBE31 /* main.cpp */; };
+		F9A494F31BC16B87003DBE31 /* J1Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9A494F11BC16B87003DBE31 /* J1Date.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F9A494E71BC16B5B003DBE31 /* ArduinoDateTime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArduinoDateTime; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A494EA1BC16B5B003DBE31 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F9A494F11BC16B87003DBE31 /* J1Date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = J1Date.cpp; sourceTree = "<group>"; };
+		F9A494F21BC16B87003DBE31 /* J1Date.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = J1Date.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F9A494EA1BC16B5B003DBE31 /* main.cpp */,
+				F9A494F11BC16B87003DBE31 /* J1Date.cpp */,
+				F9A494F21BC16B87003DBE31 /* J1Date.hpp */,
 			);
 			path = ArduinoDateTime;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A494EB1BC16B5B003DBE31 /* main.cpp in Sources */,
+				F9A494F31BC16B87003DBE31 /* J1Date.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
